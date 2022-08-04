@@ -1,0 +1,17 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "test-app",
+    "version-string": "dev",
+    "builtin-baseline": "e6a000679745f8ea3f98067e5f3753d3cbecb948",
+    "dependencies": [
+        "catch2",
+        "spdlog"
+    ],
+    "overrides": [
+        {
+            "name": "catch2",
+            "version": "3.0.1",
+            "port-version": 3
+        }
+    ]
+}
